@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>FCC - URL Shortener Microservice</h1>
+    <h3>Functional Specifications:</h3>
+    <ol>
+      <li>You can pass a URL as a parameter and this microservice will produce and return a shortened URL in the JSON response.</li>
+      <li>If you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+      <li>When you visit the shortened URL, it will redirect you to your original link.</li>
+    </ol>
+    <h2>Try it out!</h2>
+    <p>
+      Example Input:
+      <br />
+      <mark style="background-color:pink">
+       https://little-url.herokuapp.com/new/https://www.google.com
+      </mark>
+      <br />
+    </p>
+    <p>
+      Example Output:
+      <br />
+      <mark style="background-color:pink">
+        { "original_url":"https://www.google.com", "short_url":"8170" }
+      </mark>
+    </p>
+    <p>
+      Usage:
+      <br />
+      <mark style="background-color:pink">
+        https://little-url.herokuapp.com/2871
+      </mark>
+    </p>
+  </body>
+</html>
