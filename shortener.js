@@ -14,6 +14,16 @@ module.exports = {
     });
   },
   
+  getAllUrl: function (cb) {
+    getConnection(function(err, collection) {
+      if (err) throw err;
+      collection.find({}, {_id: 0}, function (err, cursor) {
+        if (err) throw err;
+        cursor.toArray(cb);
+      });
+    });
+  },
+  
   addUrl: function (doc) {
     getConnection(function(err, collection) {
       if (err) throw err;

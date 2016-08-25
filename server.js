@@ -23,6 +23,13 @@ app.get('/new/*', function(req, res) {
     res.json(newUrls);
 });
 
+app.get('/urls', function(req, res) {
+    shortener.getAllUrl(function(err, data) {
+      if (err) throw err;
+      res.json(data);
+  });
+});
+
 app.get('/*', function(req, res) {
   shortener.getUrl(req.params[0], function(err, data) {
     if (err) throw err;
