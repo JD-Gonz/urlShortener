@@ -6,12 +6,12 @@
 
 List of Available Urls: 
 
-https://jdg-short.herokuapp.com/urls 
+https://url-shortener-ms.netlify.app//urls 
 
 
 Example Input: 
 
-https://jdg-short.herokuapp.com/new/https://www.google.com 
+https://url-shortener-ms.netlify.app//new/https://www.google.com 
 
 
 Example Output: 
@@ -21,4 +21,4 @@ Example Output:
 
 Usage: 
 
-https://jdg-short.herokuapp.com/Skc6Dka5
+https://url-shortener-ms.netlify.app//Skc6Dka5
