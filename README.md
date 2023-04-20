@@ -6,12 +6,12 @@
 
 List of Available Urls: 
 
-https://url-shortener-ms.netlify.app//urls 
+https://url-shortener-ms.netlify.app/urls 
 
 
 Example Input: 
 
-https://url-shortener-ms.netlify.app//new/https://www.google.com 
+https://url-shortener-ms.netlify.app/new/https://www.google.com 
 
 
 Example Output: 
@@ -21,4 +21,4 @@ Example Output:
 
 Usage: 
 
-https://url-shortener-ms.netlify.app//Skc6Dka5
+https://url-shortener-ms.netlify.app/Skc6Dka5

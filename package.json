@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgonz001/UrlShortener.git"
+    "url": "git+https://github.com/jd-gonz/UrlShortener.git"
   },
   "author": "JD Gonzalez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dgonz001/UrlShortener/issues"
+    "url": "https://github.com/jd-gonz/UrlShortener/issues"
   },
-  "homepage": "https://github.com/dgonz001/UrlShortener#readme",
+  "homepage": "https://github.com/jd-gonz/UrlShortener#readme",
   "dependencies": {
     "express": "^4.14.0",
     "mongodb": "^2.2.8",
